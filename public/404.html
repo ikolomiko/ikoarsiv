@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Sayfa bulunamadı</title>
+
+		<style media="screen">
+			body {
+				background: #9b5a5a;
+				color: rgba(0, 0, 0, 0.87);
+				font-family: Roboto, Helvetica, Arial, sans-serif;
+				margin: 0;
+				padding: 0;
+			}
+			#message {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+        justify-content: center;
+        text-align: center;
+				background: white;
+				max-width: 360px;
+				margin: 100px auto 16px;
+				padding: 32px 24px 16px;
+				border-radius: 3px;
+			}
+			.err {
+				color: red !important;
+				font-weight: bolder;
+				font-size: 50px;
+				margin: 0 0 8px;
+			}
+			#message h1 {
+				font-size: 22px;
+				font-weight: 300;
+				color: rgba(0, 0, 0, 1);
+        margin: 0 0 16px;
+        
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+			#message a {
+				box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+					0 1px 2px rgba(0, 0, 0, 0.24);
+			}
+			#load {
+				color: rgba(0, 0, 0, 0.4);
+				text-align: center;
+				font-size: 13px;
+			}
+			@media (max-width: 600px) {
+				body,
+				#message {
+					margin-top: 0;
+					background: white;
+					box-shadow: none;
+				}
+				body {
+					border-top: 16px solid #ffa100;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div id="message">
+			<h1 class="err">404</h1>
+			<h1>Sen çok yanlış gelmişsin canısı. <br> Aradığın sayfayı bulamadık.</h1>
+		</div>
+	</body>
+</html>
